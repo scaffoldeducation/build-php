@@ -6,18 +6,18 @@ Docker image used to build project PHP in GitLab
 
 Requires [Docker](https://www.docker.com/get-started).
 
-The images are uploaded to [Docker Hub](https://hub.docker.com/r/scaffoldeducation/php-build).
+The images are uploaded to [Docker Hub](https://hub.docker.com/r/scaffoldeducation/build-php).
 
 The recommended way to get this image is through docker.
 
 ```sh
-docker pull scaffoldeducation/php-build
+docker pull scaffoldeducation/build-php
 ```
 
 Or using with Docker compose file
 
 ```sh
-FROM scaffoldeducation/php-build
+FROM scaffoldeducation/build-php
 ```
 
 ### Development
