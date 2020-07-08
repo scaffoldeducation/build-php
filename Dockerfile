@@ -4,5 +4,3 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 RUN swupd bundle-add python3-basic --no-progress && \
 	pip3 install awscli --upgrade
-
-RUN swupd bundle-add containers-basic --no-progress
